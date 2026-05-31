@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Mon, 13 Apr 2026 20:00:00 +0300
+Source: hello
+Binary: hello
+Architecture: source amd64
+Version: 1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Vlad <example@mail.com>
+Changed-By: Vlad <example@mail.com>
+Description:
+ hello      - Simple hello world program
+Changes:
+ hello (1.0-1) unstable; urgency=medium
+ .
+   * Initial release
+Checksums-Sha1:
+ 3edd311a35f0a6eaa4c76a438c58d87533bbc69d 759 hello_1.0-1.dsc
+ 3aba28bb991ec3ca53a8825281774259ab26192d 2116 hello_1.0.orig.tar.xz
+ 584dc1a28acef9a4956f547cca32d85e007a27ca 1592 hello_1.0-1.debian.tar.xz
+ df29222da60eccc6be50e3b994f8d9f0c88f019e 6298 hello_1.0-1_amd64.buildinfo
+ 8145873782aa20ed3d856ae76c3f2a5f5562432a 1388 hello_1.0-1_amd64.deb
+Checksums-Sha256:
+ 1fd10c60d37e4d7f573b432654783d6f58676d9ac73713429a429d6176c8978d 759 hello_1.0-1.dsc
+ 58926888f951745baaea294a009dc4d85266362cd9b796e77b92d0ab4ffb82f8 2116 hello_1.0.orig.tar.xz
+ 8eb41fdf4609c27a3290a56c0445f2e618fadb3608bfa91dcc45b6a8810996df 1592 hello_1.0-1.debian.tar.xz
+ 72356bcb9d78a96a96179366900fb19338ab972e165a72bfd0f713d2f16dbc13 6298 hello_1.0-1_amd64.buildinfo
+ 57555b0136f6828018a2389cd58c587c7648b4bdd1e36628d7a1b491ac051831 1388 hello_1.0-1_amd64.deb
+Files:
+ c0409d1ce92d243e58a61678e00dd9d8 759 utils optional hello_1.0-1.dsc
+ 6b0d3f9cff036c8034e52a10768579d0 2116 utils optional hello_1.0.orig.tar.xz
+ 75324804dd33f2b62eac2926ebc36427 1592 utils optional hello_1.0-1.debian.tar.xz
+ b8de9920fb36c4c8f681ac3c55c7cd5c 6298 utils optional hello_1.0-1_amd64.buildinfo
+ ffda0563ddc2ed26cc55fbe1effbf6c4 1388 utils optional hello_1.0-1_amd64.deb
